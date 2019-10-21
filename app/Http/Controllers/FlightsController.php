@@ -30,8 +30,8 @@ class FlightsController extends Controller
     }
 
     /**
-     * Get one way flights or first flight of round trips
-     *
+     * Get one way flight if tripType is oneWay
+     * Get first first of round trip if tripType is twoWay
      * 
      * @return \Illuminate\Http\Response
      */
@@ -89,7 +89,7 @@ class FlightsController extends Controller
       }
 
     /**
-     * Get all second flight for requested round trip
+     * Get second flight for requested round trip
      *
      * 
      * @return \Illuminate\Http\Response
