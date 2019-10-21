@@ -5,4 +5,4 @@
 - Make sure database is connected
 - Run php artisan migrate
 - Run php artisan db:seed
-- Run php artisan
+- Run php artisan serve
